@@ -2,8 +2,6 @@ package site.metacoding.red.domain.users;
 
 import java.util.List;
 
-import site.metacoding.red.domain.users.boards.Boards;
-
 public interface UsersDao {
 	public void insert(Users users);
 	public List<Users> findAll();
