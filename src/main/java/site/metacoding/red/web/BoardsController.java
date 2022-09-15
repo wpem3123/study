@@ -17,12 +17,14 @@ import site.metacoding.red.service.BoardsService;
 import site.metacoding.red.web.dto.request.boards.UpdateDto;
 import site.metacoding.red.web.dto.request.boards.WriteDto;
 import site.metacoding.red.web.dto.response.boards.PagingDto;
+
 @RequiredArgsConstructor
 @Controller
 public class BoardsController {
 
 	private final HttpSession session;
 	private final BoardsService boardsService;
+
 	
 	/***
 	 * 
